@@ -304,6 +304,61 @@ body{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
+    font-weight: 400;  
+}
+#team {
+    padding: 3em;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#team {
+    padding: 2em;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    background-color: #333;
+    border-radius: 18px;
+    margin: 1em;
+    overflow: hidden;
+    text-align: center;
+    width: 25%;
+    padding: 0;
+}
+
+.team-member img {
+    width: 326.67px;
+    height: 272px;
+}
+.team-member h3 {
+    margin: 0.5em 0;
+    color: white;
+}
+.team-member p {
+    color: rgba(0, 0, 0, 0.2);
+}
+#team h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+#team p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
     font-weight: 400;
-     
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
