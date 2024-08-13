@@ -362,3 +362,89 @@ body{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+.footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+ /* footer part */
+
+ .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.fitness-content {
+    max-width: 300px;
+}
+
+.fitness-content h1 {
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    margin-bottom: 20px;
+}
+
+.fitness-content p {
+    font-family: Inter;
+    font-size: 14px;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.5);
+    position: static;
+    width: 443px;
+    height: 72px;
+}
+
+.links {
+    display: flex;
+    gap: 80px;
+}
+
+.column h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.column ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+
+}
+
+.column ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
