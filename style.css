@@ -220,11 +220,16 @@ body{
     width: 80%;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
+
 }
 .container h2{
     font-family: Inter;
     font-size: 48px;
     color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
 }
 .container p{
     color: rgba(255, 255, 255, 0.5);
@@ -369,7 +374,7 @@ body{
 }
  /* footer part */
 
- .container {
+ .container-1 {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -377,18 +382,18 @@ body{
     padding: 0 20px;
 }
 
-.fitness-content {
+.fitness {
     max-width: 300px;
 }
 
-.fitness-content h1 {
+.fitness h1 {
     font-size: 70px;
     font-weight: 800;
     color: rgb(230, 83, 60);
     margin-bottom: 20px;
 }
 
-.fitness-content p {
+.fitness p {
     font-family: Inter;
     font-size: 14px;
     padding: 0px;
@@ -409,6 +414,7 @@ body{
     font-size: 32px;
     font-weight: 700;
     line-height: 120%;
+    color: white;
 }
 
 .column ul {
