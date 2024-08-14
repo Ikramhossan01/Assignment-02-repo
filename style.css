@@ -20,7 +20,7 @@ body{
 .all-background{
        background-color: rgb(17, 17, 17);
 }
-.text-contant{
+.text-contant {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,7 +152,7 @@ body{
     height: 180px;
 }
 
-.box-contant img {
+.box- img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
